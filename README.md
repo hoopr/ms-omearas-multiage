@@ -1,5 +1,5 @@
 # Ms. O'Meara's Multiage
-The classroom website for Ms. O'Meara, her students, and their parents!
+A WordPress theme for the original classroom website of Ms. O'Meara, her students, and their parents!
 
 ## Installation
 1. Add theme folder to wp-content/themes.
