@@ -1,0 +1,54 @@
+/* =========================================================================
+   Layout
+   ========================================================================= */
+.nav {
+  ul {
+    li {
+      display: inline-block;
+      padding: 5px 15px;
+    }
+  }
+  &.parents__nav,
+  &.kids__nav {
+    text-align: center;
+    margin: 1em 0;
+  }
+}
+
+.parents__nav {
+  li {
+    @media all and (max-width: 767px) {
+      width: 100%;
+    }
+  }
+}
+
+.kids__nav {
+  margin-bottom: 1em;
+  .subject a {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #ccc;
+    margin: 0 5px;
+  }
+}
+
+
+
+/* =========================================================================
+   Typography
+   ========================================================================= */
+li.current_page_item a,
+li.current-page-ancestor a,
+{
+  text-decoration: underline;
+}
+
+.kids__nav {
+  text-align: center;
+}
+
+#menu-parents-navigation li.current-page-ancestor a {
+  text-decoration: none;
+}

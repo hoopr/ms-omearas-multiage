@@ -1,0 +1,68 @@
+/* =========================================================================
+   Global
+   ========================================================================= */
+
+/**
+ * Vertically aligns element inside its parent
+ */
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+/* =========================================================================
+   Content
+   ========================================================================= */
+
+
+/* Kids
+   ========================================================================= */
+
+/**
+ * Takes subject selector and corresponding icomoon icon and adds to after 
+ * psuedo class
+ */
+@mixin subject-icons() {
+  @each $subject, $icon in $subject-icons {
+    .#{$subject} a h2:after {
+      content: "#{$icon}";
+      font-family: 'icomoon';
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      display: block;
+      font-size: 48px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  }
+}
+
+
+
+/* =========================================================================
+   Footer
+   ========================================================================= */
+
+/**
+ * Takes social media selector and corresponding icon and adds to after 
+ * psuedo class
+ */
+ @mixin social-media-icons() {
+  @each $social-media, $position in $social-media-icons {
+    &.#{$social-media} {
+      background-position: $position 0px;
+      &:hover {
+        background-position: $position - 52 0px;  
+      }
+    }
+  }
+ }

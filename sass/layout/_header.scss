@@ -1,0 +1,43 @@
+/* =========================================================================
+   Header
+   ========================================================================= */
+#masthead {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  box-shadow: 1px 1px 5px #ccc;
+  .admin-bar & {
+    top: 32px;
+    @media all and (max-width: 767px) {
+      top: 46px;
+    }
+  }
+}
+
+
+/* Logo
+   ========================================================================= */
+.logo--main {
+  float: left;
+  @media all and (max-width: 767px) {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0;
+  }
+}
+
+
+/* Navigation
+   ========================================================================= */
+.nav--main {
+  ul {
+    float: right;
+    margin-top: 28px;
+    li {
+      float: left;
+    }
+  }
+}

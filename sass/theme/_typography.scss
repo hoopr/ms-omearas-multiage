@@ -1,0 +1,145 @@
+/* =========================================================================
+   Global
+   ========================================================================= */
+body {
+  // @include debug-vertical-alignment;
+  font-family: $source-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $handlee;
+  letter-spacing: 1px;
+}
+
+h1 {
+  @include adjust-font-size-to($base-font-size * 2);
+}
+
+h2 {
+  @include adjust-font-size-to($base-font-size * 1.5);
+}
+
+h3 {
+  @include adjust-font-size-to($base-font-size * 1.25);
+}
+
+p, blockquote, ul {
+  @include adjust-font-size-to($base-font-size);
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:font-url('../fonts/icomoon.eot?-hoi8ld');
+  src:font-url('../fonts/icomoon.eot?#iefix-hoi8ld') format('embedded-opentype'),
+      font-url('../fonts/icomoon.woff?-hoi8ld') format('woff'),
+      font-url('../fonts/icomoon.ttf?-hoi8ld') format('truetype'),
+      font-url('../fonts/icomoon.svg?-hoi8ld#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a.anchor-icon:before {
+  content: "\e606";
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-size: $base-font-size;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 0.5em;  
+}
+
+
+
+/* =========================================================================
+   Header
+   ========================================================================= */
+
+
+/* Navigation
+   ========================================================================= */
+.nav--main {
+  a {
+    font-family: $handlee;
+    @include adjust-font-size-to($base-font-size * 2);
+  }
+}
+
+
+
+/* =========================================================================
+   Content
+   ========================================================================= */
+
+
+/* Home 
+   ========================================================================= */
+
+/* About Class, About Multiage, About MK */
+.about {
+  h2 {
+    @include adjust-font-size-to($base-font-size * 2);
+    margin-bottom: rhythm(1, $base-font-size * 2);
+    @include leader;
+    @media all and (max-width: 767px) {
+      text-align: center;
+    }
+  }
+  p, ul {
+    @include trailer;
+  }
+}
+
+
+/* Kids
+   ========================================================================= */
+.kids .subject a h2 {
+  line-height: 1;
+}
+
+.kids__nav .subject a h2:after {
+  @include adjust-font-size-to($base-font-size);
+}
+
+
+/* Parents
+   ========================================================================= */
+.parents__nav a {
+  font-family: $source-sans; 
+  @include adjust-font-size-to($base-font-size*1.25); 
+}
+
+.parents {
+  span {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
+
+
+/* Blog
+   ========================================================================= */
+.blog .blog__post .blog__post__date--container {
+  font-family: $handlee;
+  font-size: $base-font-size * 1.25;
+  .blog__post__date {
+    text-align: center;
+  }
+}
+
+
+
+/* =========================================================================
+   Footer
+   ========================================================================= */
+#footer {
+  font-size: 12px;
+}

@@ -1,0 +1,98 @@
+/* =========================================================================
+   Global
+   ========================================================================= */
+a, a:hover, a:visited {
+  color: $dark-blue;
+}   
+
+
+
+/* =========================================================================
+   Header
+   ========================================================================= */
+#masthead {
+  background-color: $white;
+}
+
+
+
+/* =========================================================================
+   Content
+   ========================================================================= */
+
+
+/* Home
+   ========================================================================= */
+
+/* About Class */
+.about--about-our-class {
+  background-color: $medium-blue;
+  color: $white;
+  a, a:hover, a:visited {
+    color: $white;
+  }
+}
+
+/* About Multiage */
+.about--about-multiage-programming {
+  background-color: $yellow;
+}
+
+/* About MK */
+.about--about-the-teacher {
+  background-color: $light-blue;
+}
+
+
+/* Kids
+   ========================================================================= */
+.subject--science a {
+  background: $medium-blue;
+}
+
+.subject--social-studies a {
+  background: $green;
+}
+
+.subject--math a {
+  background: $light-blue;
+}
+
+.subject--language-arts a {
+  background: $yellow;
+}
+
+.kids__nav {
+  .kids--science & .subject--science,
+  .kids--social-studies & .subject--social-studies,
+  .kids--math & .subject--math,
+  .kids--language-arts & .subject--language-arts {
+    a {
+      color: #ccc;
+    }
+  }
+}
+
+
+/* Parents
+   ========================================================================= */
+.parents__welcome {
+  background-color: $yellow;
+}
+
+
+/* Blog
+   ========================================================================= */
+.blog .blog__post .blog__post__date--container {
+  background-color: $yellow;
+  box-shadow: 0 0 5px #ccc;
+}
+
+
+
+/* =========================================================================
+   Footer
+   ========================================================================= */
+#footer {
+  background-color: $white;
+}

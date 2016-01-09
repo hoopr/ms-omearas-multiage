@@ -1,0 +1,37 @@
+/* =========================================================================
+   Content
+   ========================================================================= */
+
+
+/* Home
+   ========================================================================= */
+
+/* About */
+.about {
+  padding-bottom: 1.5em;
+  ul {
+    list-style-type: circle;
+    list-style-position: inside;
+  }
+  .about--about-our-class__voicethread {
+    text-align: center;
+    margin: 0;
+    float: right;
+    @media all and (max-width: 1024px) {
+      display: none;
+    }
+  }
+  &.about--about-multiage-programming .full_width h3:first-child {
+    margin-bottom: 0.5em;
+  }
+  #metaslider_142 {
+    @media all and (max-width: 767px) {
+      max-width: 294px;
+      margin: 0 auto;
+    }
+  }
+}
+
+
+
+

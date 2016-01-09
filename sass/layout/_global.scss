@@ -1,0 +1,32 @@
+/* =========================================================================
+   Global
+   ========================================================================= */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  overflow: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.inner-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content-column.one_half,
+.content-column.one_half.last_column {
+  div {
+    @media all and (max-width: 767px) {
+      padding: 0 !important;
+    }
+  }
+}

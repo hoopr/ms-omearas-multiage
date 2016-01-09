@@ -1,0 +1,44 @@
+/* =========================================================================
+   Subject Icons
+   ========================================================================= */
+$subject-icons: (
+  subject--science: "\e602",
+  subject--social-studies: "\e603",
+  subject--math: "\e601",
+  subject--language-arts: "\e600"
+);
+
+
+
+/* =========================================================================
+   Social Media Icons
+   ========================================================================= */
+$social-media-icons: (
+  social-media__email: 0px,
+  social-media__twitter: -104px,
+  social-media__pinterest: -208px
+);
+
+
+/* =========================================================================
+   Typography
+   ========================================================================= */
+$handlee: "Handlee", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+$source-sans: "Source Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$base-font-size: 16px;
+$base-line-height: $base-font-size * 1.5;
+@include establish-baseline;
+
+
+
+/* =========================================================================
+   Colors
+   ========================================================================= */
+$black: #000;
+$white: #fff;
+$dark-blue: #0055AA;
+$medium-blue: #3377AA;
+$light-blue: #64B7FA;
+$green: #00C2AB;
+$yellow: #FDF1A9;
+$gray: #F4F4F4;

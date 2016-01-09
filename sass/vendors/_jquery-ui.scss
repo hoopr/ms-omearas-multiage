@@ -1,0 +1,53 @@
+/* =========================================================================
+   Accordion
+   ========================================================================= */
+
+
+/* Layout
+   ========================================================================= */
+.ui-state-focus {
+  outline: none;
+}
+
+.ui-accordion-content {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+
+/* Typography
+   ========================================================================= */
+.ui-accordion-header {
+  @media all and (max-width: 767px) {
+    font-size: 1em;
+  }
+  &:before {
+    font-family: 'icomoon';
+    content: "\e605";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: $base-font-size;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  &.ui-accordion-header-active:before {
+    content: "\e604";
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.ui-accordion-content {
+  h3 {
+    margin: 0.75em 0 0.25em;
+  }
+}
+
+
+/* Color
+   ========================================================================= */

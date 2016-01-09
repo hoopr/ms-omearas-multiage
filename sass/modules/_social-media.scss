@@ -1,0 +1,19 @@
+/* =========================================================================
+   Layout
+   ========================================================================= */
+.social-media {
+  ul {
+    li {
+      display: inline-block;
+      padding: 20px 10px 7px;
+      a {
+        background-image: image-url("social-media_10192014.png");
+        display: block;
+        width: 52px;
+        height: 52px;
+        @include social-media-icons;
+      }
+    }
+  }
+}
+
