@@ -10,7 +10,8 @@ A WordPress theme for the original classroom website of Ms. O'Meara, her student
 #### CSS + Sass
 - FlexSlider ([https://www.woothemes.com/flexslider/](https://www.woothemes.com/flexslider/))
 - jQuery UI ([https://jqueryui.com/](https://jqueryui.com/))
-- Underscores Starter Theme ([http://underscores.me/](http://underscores.me/))
+- Underscores ([http://underscores.me/](http://underscores.me/))
+- Unsemantic ([http://unsemantic.com/](http://unsemantic.com/))
 
 #### Fonts
 - Handlee ([https://www.google.com/fonts/specimen/Handlee](https://www.google.com/fonts/specimen/Handlee))
@@ -20,4 +21,5 @@ A WordPress theme for the original classroom website of Ms. O'Meara, her student
 #### JavaScript
 - FlexSlider ([https://www.woothemes.com/flexslider/](https://www.woothemes.com/flexslider/))
 - jQuery ([https://jquery.com/](https://jquery.com/))
-- Underscores Starter Theme ([http://underscores.me/](http://underscores.me/))
+- jQuery UI ([https://jqueryui.com/](https://jqueryui.com/))
+- Underscores ([http://underscores.me/](http://underscores.me/))
