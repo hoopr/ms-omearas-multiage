@@ -8,7 +8,6 @@ A [WordPress](https://wordpress.org/) theme for the original classroom website o
 ## Libraries
 
 #### CSS + Sass
-- [FlexSlider](https://www.woothemes.com/flexslider/)
 - [jQuery UI](https://jqueryui.com/)
 - [Underscores](http://underscores.me/)
 - [Unsemantic](http://unsemantic.com/)
@@ -19,7 +18,13 @@ A [WordPress](https://wordpress.org/) theme for the original classroom website o
 - [Source Sans Pro](https://www.google.com/fonts/specimen/Source+Sans+Pro)
 
 #### JavaScript
-- [FlexSlider](https://www.woothemes.com/flexslider/)
 - [jQuery](https://jquery.com/)
 - [jQuery UI](https://jqueryui.com/)
 - [Underscores](http://underscores.me/)
+
+#### WordPress Plugins
+- [All In One WP Security & Firewall](https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/)
+- [Better WordPress Minify](https://wordpress.org/plugins/bwp-minify/)
+- [Column Shortcodes](https://wordpress.org/plugins/column-shortcodes/)
+- [Meta Slider](https://wordpress.org/plugins/ml-slider/)
+- [Responsive Menu](https://wordpress.org/plugins/responsive-menu/)
