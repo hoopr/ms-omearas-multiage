@@ -2,22 +2,22 @@
   "name": "ms-omearas-multiage",
   "version": "1.0.0",
   "description": "A WordPress theme for the original classroom website of Ms. O'Meara, her students, and their parents!",
-  "homepage": "https://pdhoopr.github.io/ms-omearas-multiage",
+  "homepage": "https://github.com/hoopr/ms-omearas-multiage#readme",
   "author": {
     "name": "Patrick Hooper",
     "email": "patrick.d.hooper@gmail.com",
-    "url": "http://patrick.hoopr.io"
+    "url": "https://patrickhooper.me"
   },
   "contributors": [
     {
       "name": "Marie Hooper",
       "email": "marie.ashtari@gmail.com",
-      "url": "http://marie.hoopr.io"
+      "url": "https://mariehooper.me"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pdhoopr/ms-omearas-multiage"
+    "url": "https://github.com/hoopr/ms-omearas-multiage"
   },
   "private": true
 }

@@ -10,7 +10,7 @@ images_dir = "img"
 fonts_dir = "fonts"
 
 # Paths
-http_path = "http://msomearasmultiage.com/wp-content/themes/msomearasmultiage"
+http_path = "/wp-content/themes/msomearasmultiage"
 http_stylesheets_path = http_path + "/" + "css"
 http_javascripts_path = http_path + "/" + "js"
 http_images_path = http_path + "/" + "img"

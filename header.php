@@ -25,7 +25,7 @@
 
       <!-- Main site logo -->
       <div class="logo logo--main">
-        <a href="http://msomearasmultiage.com"><img src="http://msomearasmultiage.com/wp-content/themes/msomearasmultiage/img/logo_10192014.png" alt="Ms. O'Meara's Multiage" alt="Ms. O'Meara's Multiage"></a>
+        <a href="/"><img src="/wp-content/themes/msomearasmultiage/img/logo_10192014.png" alt="Ms. O'Meara's Multiage" alt="Ms. O'Meara's Multiage"></a>
       </div>
 
       <!-- Main site navigation -->
@@ -34,5 +34,5 @@
       </nav>
     </div>
   </header>
-  
+
 	<div id="content" class="site-content">
